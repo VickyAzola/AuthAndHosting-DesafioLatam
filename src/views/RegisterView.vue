@@ -17,12 +17,13 @@ async function handleSubmit() {
 
     if (userData.user) {
       success.value = true
-    } else if (userData.user.email) {
-      alert('Este correo ya esta registrado')
-    } else {
-      alert('Error, intentalo de nuevo')
     }
   } catch (error) {
+    if (error.code === 'auth/email-already-in-use') {
+      alert('Este correo ya está registrado. Intenta iniciar sesión.')
+    } else {
+      alert('Error: ' + error.message)
+    }
     console.error(error)
   }
 }
