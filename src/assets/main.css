@@ -1,0 +1,39 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+form {
+  margin: 1rem;
+  width: 18rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.3rem;
+}
+
+input {
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  padding-block: 0.4rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.router-link {
+  text-align: center;
+}
