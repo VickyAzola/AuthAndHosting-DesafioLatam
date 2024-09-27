@@ -1,4 +1,5 @@
 <script setup>
+import BtnGoogle from '@/components/BtnGoogle.vue'
 import { RouterLink } from 'vue-router'
 import router from '@/router/index.js'
 import { ref } from 'vue'
@@ -38,8 +39,9 @@ async function handleLogin() {
       <input type="password" id="password" placeholder="Contraseña" v-model="password" required />
     </div>
     <button>Iniciar sesión</button>
-    <p class="router-link">
-      ¿No tienes cuenta? <RouterLink :to="{ name: 'register' }">Registrate</RouterLink>
-    </p>
   </form>
+  <BtnGoogle btnText="Inicia Sesión con Google" />
+  <p class="router-link">
+    ¿No tienes cuenta? <RouterLink :to="{ name: 'register' }">Registrate</RouterLink>
+  </p>
 </template>

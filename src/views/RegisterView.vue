@@ -1,4 +1,5 @@
 <script setup>
+import BtnGoogle from '@/components/BtnGoogle.vue'
 import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 import { $auth } from '@/firebaseconfig.js'
@@ -46,6 +47,7 @@ async function handleSubmit() {
     </div>
     <button>Crea tu cuenta</button>
   </form>
+  <BtnGoogle btnText="Registrate con Google" />
   <p class="router-link">
     ¿Ya tienes una cuenta?
     <RouterLink :to="{ name: 'login' }">Inicia sesión</RouterLink>
