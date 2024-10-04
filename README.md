@@ -12,8 +12,6 @@
 
 Este proyecto es una aplicación simple creada con **Vue 3** que implementa la autenticación de usuarios utilizando **Firebase Authentication**. Los usuarios pueden registrarse, iniciar sesión y ser redirigidos a páginas protegidas. También maneja errores comunes como el registro de correos electrónicos duplicados y contraseñas incorrectas.
 
-Con **Firebase Hosting** se hizo deploy de la aplicación, puedes [revisar el resultado aqui](https://crear-usuarios-4131d.web.app)
-
 ## Funcionalidades principales
 
 ### Registro de usuarios
