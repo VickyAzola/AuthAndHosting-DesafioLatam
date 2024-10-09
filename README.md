@@ -14,6 +14,8 @@ Este proyecto es una aplicación simple creada con **Vue 3** que implementa la a
 
 Mediante **Firebase Hosting** se creo una página que puedes [revisar aqui](https://hosting-test-ab567.web.app/register)
 
+![autentificacion](https://github.com/user-attachments/assets/318fba4e-20f6-48c1-8fd8-b7a2c51fdf99)
+
 ## Funcionalidades principales
 
 ### Registro de usuarios
